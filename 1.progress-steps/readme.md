@@ -6,3 +6,7 @@
   --graycolor: #999;
 }
 ```
+
+2.before伪元素
+
+3.DOM选择

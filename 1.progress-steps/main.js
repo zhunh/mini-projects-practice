@@ -19,6 +19,7 @@ next.addEventListener("click", function () {
 });
 
 function update() {
+  // 激活步骤样式
   steps.forEach((step, idx) => {
     if (idx <= curActive) {
       step.classList.add("active");
@@ -26,10 +27,11 @@ function update() {
       step.classList.remove("active");
     }
   });
+  // 更新进度条
   const actives = document.querySelectorAll(".active");
   processBar.style.width =
     ((actives.length - 1) / (steps.length - 1)) * 100 + "%";
-
+  // 更新按钮状态
   if (curActive === 0) {
     prev.disabled = true;
   } else if (curActive === steps.length - 1) {
