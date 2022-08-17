@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.empty {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #000;
+  margin: 10px;
+  background-color: #fff;
+}
+
+.fill {
+  background-image: url("https://source.unsplash.com/random/150x150");
+  width: 145px;
+  height: 145px;
+  cursor: pointer;
+}
+/* 拖拽过程中的样式 */
+.hold {
+  border: solid 5px #ccc;
+}
+
+.hovered {
+  background-color: #333;
+  border-color: white;
+  border-style: dashed;
+}
+
+@media (max-width: 800px) {
+  body {
+    flex-direction: column;
+  }
+}
