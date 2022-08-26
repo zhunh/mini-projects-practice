@@ -28,10 +28,3 @@ body {
 .square:hover {
   transition-duration: 0s;
 }
-
-.test {
-  width: 100px;
-  height: 100px;
-  border: 1px solid #666;
-  box-shadow: 0 0 2px red, -5px -5px 5px blue;
-}

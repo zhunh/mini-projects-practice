@@ -1,0 +1,3 @@
+- setTimeout和setInterval用法
+- 监听按键事件
+- 随机选中列表的单个元素：Math.floor(Math.random() * tags.length)
