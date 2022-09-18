@@ -44,7 +44,7 @@ body::before {
   background-position: center center;
   background-size: cover;
   position: absolute;
-  top: -15vh;
+  top: -15vh; /*这里偏移设置为刚好整个屏幕*/
   left: -15vw;
   transition: 0.4s ease;
   z-index: 1;

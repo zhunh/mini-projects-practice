@@ -27,7 +27,7 @@ leftBtn.addEventListener('click', () => {
   setActiveSlide()
 })
 
-setBgToBody()
+// setBgToBody()
 
 function setBgToBody() {
   body.style.backgroundImage = slides[activeSlide].style.backgroundImage
